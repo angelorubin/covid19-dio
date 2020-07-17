@@ -1,3 +1,26 @@
+# Progressive Web App com React - COVID-19
+
+<p align="center">
+  <img width="460" height="300" src="https://i.imgur.com/1aYNOsx.png">
+</p>
+
+## Digital Innovation One - Bootcamp SPTech
+
+[Link Bootcamp](https://web.digitalinnovation.one/track/sp-tech-desenvolvimento-front-end)
+
+## Tecnologias utilizadas
+
+- [Create React App](https://create-react-app.dev)
+- [Axios](https://github.com/axios/axios)
+- [Styled Components](https://styled-components.com)
+- [Material-UI](https://material-ui.com)
+
+## Demo Online
+
+[http://covid19-dio.surge.sh](http://covid19-dio.surge.sh)
+
+## Sobre o projeto
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
