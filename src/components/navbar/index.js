@@ -16,6 +16,7 @@ import {
   NavbarSelectOption,
   StyledName,
   StyledFlag,
+  StyledButton,
 } from "./style";
 import { COUNTRIES } from "commons/constants/countries";
 
@@ -42,15 +43,11 @@ const Navbar = ({ data, handleChange }) => {
   };
 
   const ShareButton = ({ onClick }) => (
-    <Button onClick={onClick} variant="contained">
-      Share
-    </Button>
+    <StyledButton onClick={onClick}>compartilhar</StyledButton>
   );
 
   const CopyButton = ({ onClick }) => (
-    <Button onClick={onClick} variant="contained">
-      Copy
-    </Button>
+    <StyledButton onClick={onClick}>copiar</StyledButton>
   );
 
   const copyInfo = () => {
