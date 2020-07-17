@@ -4,6 +4,8 @@ import {
   Typography,
   Grid,
   Select,
+  Button,
+  ButtonBase,
   NativeSelect,
   MenuItem,
   FormControl,
@@ -49,4 +51,14 @@ export const StyledName = styled(Typography)`
 export const StyledFlag = styled(Flag)`
   width: 30px;
   height: 25px;
+`;
+
+export const StyledButton = styled(ButtonBase)`
+  min-width: 140px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: none;
+  color: ${grey[200]};
+  background-color: ${blue[900]};
 `;
