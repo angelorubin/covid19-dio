@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "COVID19-DIO",
+  "name": "COVID19-DIO",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,19 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
+      "src": "covid512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "covid256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "covid128.png",
+      "type": "image/png",
+      "sizes": "128x128"
     }
   ],
   "start_url": ".",

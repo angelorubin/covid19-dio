@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import CovidBg from "assets/images/bg.jpg";
 
 const globalStyle = createGlobalStyle`
   * {
@@ -15,15 +14,6 @@ const globalStyle = createGlobalStyle`
     min-height: 100%;
     display: flex;
 
-  }
-
-  #root {
-    height: 100%;
-    width: 100%;
-    background-image: url(${CovidBg});
-    background-repeat: none;
-    background-position: center center;
-    background-size: cover;
   }
 
 `;
